@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+coverage
+.next
+.cache
+*.min.js
+*.min.css
+package-lock.json
+config.json
+*.db
+*.log
