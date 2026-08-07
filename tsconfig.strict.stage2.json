@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.strict.stage1.json",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true
+  }
+}
