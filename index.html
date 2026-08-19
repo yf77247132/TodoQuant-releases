@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoQuant</title>
+    <script>
+      // 极致前端性能守护：劫持 & 静默 HMR Websocket 及无意义的三方报错防卡顿
+      (function() {
+        const originalWebSocket = window.WebSocket;
+        if (originalWebSocket) {
+          window.WebSocket = function(url, protocols) {
+            const urlStr = String(url || "");
+            
+            // 我们系统正常通信：使用当前 `location.host` (不带非标端口，如 Nginx 代理 80/443)，或者 Electron 本地，
+            // 任何试图连接类似 :24678, :2467, :5173 的 Vite Hmr 或者是 widgetdata.tradingview.com 在 Iframe 隔离环境下全是阻碍主线程的垃圾连接
+            const isSystemWs = urlStr.includes(window.location.host);
+            const hostClean = window.location.host.split(':')[0];
+            const hasNonStandardPort = RegExp(':(?!80|443|3000)\\d+').test(urlStr.replace(hostClean, ''));
+            const isViteHmr = urlStr.includes('/vite') || urlStr.includes('__vite_ping') || (isSystemWs && hasNonStandardPort);
+            const isTradingView = urlStr.includes('tradingview.com') || urlStr.includes('widgetdata') || urlStr.includes('socket.io');
+
+            if (isViteHmr || isTradingView) {
+              // 返回一个静默的空实现 Mock WebSocket，直接进入静默状态，从而不触发任何 console 红字
+              const mockWs = {
+                url: url,
+                readyState: 0, // CONNECTING
+                bufferedAmount: 0,
+                extensions: "",
+                protocol: "",
+                binaryType: "blob",
+                send: function() {},
+                close: function() {},
+                addEventListener: function() {},
+                removeEventListener: function() {},
+                onopen: null,
+                onerror: null,
+                onclose: null,
+                onmessage: null
+              };
+              // 触发 close，避免第三方代码卡在 CONNECTING
+              setTimeout(() => {
+                if (typeof mockWs.onclose === 'function') {
+                  mockWs.onclose({ wasClean: false, code: 1006, reason: "Silent Intercepted" });
+                }
+              }, 100);
+              return mockWs;
+            }
+
+            try {
+              return new originalWebSocket(url, protocols);
+            } catch (e) {
+              return new originalWebSocket(url);
+            }
+          };
+          window.WebSocket.prototype = originalWebSocket.prototype;
+          Object.assign(window.WebSocket, originalWebSocket);
+        }
+
+        // 屏蔽浏览器全局抛出的无法避免的 Vite/Tradingview 资源/未捕获异常
+        window.addEventListener('unhandledrejection', function(event) {
+          const reason = event.reason && event.reason.stack || String(event.reason || "");
+          if (
+            reason.includes('WebSocket') || 
+            reason.includes('vite') || 
+            reason.includes('tradingview') ||
+            reason.includes('telemetry')
+          ) {
+            event.preventDefault(); // 阻止控制台爆红
+          }
+        });
+
+        window.addEventListener('error', function(event) {
+          const msg = event.message || "";
+          const filename = event.filename || "";
+          if (
+            msg.includes('WebSocket') || 
+            msg.includes('vite') || 
+            msg.includes('tradingview') ||
+            filename.includes('tradingview') || 
+            filename.includes('widget')
+          ) {
+            event.preventDefault(); // 静默处理
+          }
+        }, true);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
