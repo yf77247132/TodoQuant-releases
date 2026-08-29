@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.strict.stage2.json",
+  "compilerOptions": {
+    "strict": true
+  }
+}
