@@ -1,0 +1,5 @@
+export const DEFAULT_ACCOUNT_COLORS = ['#F0B90B', '#007AFF'] as const;
+
+export const BINANCE_YELLOW = DEFAULT_ACCOUNT_COLORS[0];
+
+export const OKX_BLUE = DEFAULT_ACCOUNT_COLORS[1];
