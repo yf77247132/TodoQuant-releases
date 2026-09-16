@@ -1,0 +1,62 @@
+# Normalize text files in this repository
+* text=auto
+
+# Source and docs (force LF to reduce mojibake risk)
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+*.sql text eol=lf
+*.xml text eol=lf
+*.env text eol=lf
+
+# Windows scripts keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary artifacts
+# ⚠️ 这些类型必须显式标 binary：否则 git 会对它们做 EOL 转换 + 文本 diff，
+#    既可能损坏文件（CRLF 改写二进制），又会把 .git 里的 diff 撑爆。
+#    2026-09-14 补全（原名单只覆盖 db/图片/压缩包，漏了 exe/dll/node/pyc/字体）。
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.db-shm binary
+*.db-wal binary
+*.prebak binary
+*.corrupted binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.icns binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.tar binary
+*.exe binary
+*.dll binary
+*.node binary
+*.so binary
+*.dylib binary
+*.pyc binary
+*.pyo binary

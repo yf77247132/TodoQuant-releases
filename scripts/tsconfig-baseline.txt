@@ -1,0 +1,456 @@
+src/App.tsx|TS2339|Property 'id' does not exist on type 'Account'.
+src/App.tsx|TS2339|Property 'onUpdateChecking' does not exist on type 'ElectronAPI'.
+src/App.tsx|TS6196|'LogEntry' is declared but never used.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'code' does not exist on type 'unknown'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'price' does not exist on type 'OrderWithAlgo'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'price' does not exist on type 'OrderWithAlgo'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'stopPrice' does not exist on type 'OrderWithAlgo'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'type' does not exist on type 'OrderWithAlgo'.
+src/blocks/actions/AmendOrderAction.ts|TS2339|Property 'type' does not exist on type 'OrderWithAlgo'.
+src/blocks/actions/AmendOrderAction.ts|TS2345|Argument of type 'OrderWithAlgo' is not assignable to parameter of type 'OrderStateLike'.
+src/blocks/actions/AmendOrderAction.ts|TS2345|Argument of type 'UnifiedOrder' is not assignable to parameter of type 'OrderStateLike'.
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS2551|Property 'attachAlgoClOrdId' does not exist on type 'TPAlgoOrder'. Did you mean 'attachAlgoId'?
+src/blocks/actions/AmendOrderAction.ts|TS6133|'newSlLimit' is declared but its value is never read.
+src/blocks/actions/AmendOrderAction.ts|TS6133|'originalSlOrdPx' is declared but its value is never read.
+src/blocks/actions/AmendOrderAction.ts|TS6133|'originalSlOrdPx' is declared but its value is never read.
+src/blocks/actions/AmendOrderAction.ts|TS6133|'originalTpOrdPx' is declared but its value is never read.
+src/blocks/actions/CancelOrderAction.ts|TS2322|Type 'string | number' is not assignable to type 'string'.
+src/blocks/actions/CancelOrderAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/CancelOrderAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/CancelOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/CancelOrderAction.ts|TS2345|Argument of type 'UnifiedOrder' is not assignable to parameter of type 'OrderStateLike'.
+src/blocks/actions/CancelOrderAction.ts|TS6133|'okxApi' is declared but its value is never read.
+src/blocks/actions/ClosePositionAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/ClosePositionAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/ClosePositionAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/ClosePositionAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/ClosePositionAction.ts|TS2769|No overload matches this call.
+src/blocks/actions/ClosePositionAction.ts|TS2769|No overload matches this call.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'activePx' does not exist on type 'ExtendedOrder'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'activePx' does not exist on type 'ExtendedOrder'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'algoId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'algoId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'algoId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'algoId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'clOrdId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'orderId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'ordId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'ordId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'ordId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'ordId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'ordId' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sCode' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2339|Property 'sMsg' does not exist on type 'unknown'.
+src/blocks/actions/PlaceOrderAction.ts|TS2345|Argument of type 'Record<string, unknown>' is not assignable to parameter of type 'Record<string, string | number | boolean>'.
+src/blocks/actions/PlaceOrderAction.ts|TS2345|Argument of type 'Record<string, unknown>' is not assignable to parameter of type 'Record<string, string | number | boolean>'.
+src/blocks/actions/PlaceOrderAction.ts|TS2345|Argument of type 'Record<string, unknown>' is not assignable to parameter of type 'Record<string, string | number | boolean>'.
+src/blocks/actions/PlaceOrderAction.ts|TS2345|Argument of type 'Record<string, unknown>' is not assignable to parameter of type 'Record<string, string | number | boolean>'.
+src/blocks/actions/PlaceOrderAction.ts|TS2367|This comparison appears to be unintentional because the types '"OKX"' and '"BINANCE"' have no overlap.
+src/blocks/actions/PlaceOrderAction.ts|TS6133|'actualNumOrders' is declared but its value is never read.
+src/blocks/actions/PlaceOrderAction.ts|TS6133|'failures' is declared but its value is never read.
+src/blocks/actions/PlaceOrderAction.ts|TS6133|'tickSz' is declared but its value is never read.
+src/bootstrap/serverBootstrap.ts|TS2339|Property 'account_id' does not exist on type 'object'.
+src/bootstrap/serverBootstrap.ts|TS2339|Property 'account_id' does not exist on type 'object'.
+src/bootstrap/serverBootstrap.ts|TS7053|Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+src/bootstrap/ws/core/loginHandlers.ts|TS6133|'okxWsErrorMap' is declared but its value is never read.
+src/bootstrap/ws/core/messageHandlers.ts|TS2339|Property 'toLowerCase' does not exist on type 'unknown'.
+src/bootstrap/ws/core/messageHandlers.ts|TS2339|Property 'toLowerCase' does not exist on type 'unknown'.
+src/bootstrap/ws/core/messageHandlers.ts|TS2345|Argument of type 'Record<string, unknown>[]' is not assignable to parameter of type 'TradeOrder[]'.
+src/bootstrap/ws/core/messageHandlers.ts|TS2345|Argument of type 'WSDataItem[]' is not assignable to parameter of type '{ details?: unknown[]; }[]'.
+src/bootstrap/ws/core/messageHandlers.ts|TS2345|Argument of type 'WSDataItem[]' is not assignable to parameter of type 'OKXPosition[]'.
+src/components/AmendModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/AmendModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/AmendModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/ApiKeysModule.tsx|TS2322|Type 'string' is not assignable to type '"#F0B90B"'.
+src/components/ApiKeysModule.tsx|TS2322|Type 'string' is not assignable to type '"#F0B90B"'.
+src/components/ApiKeysModule.tsx|TS2322|Type 'string' is not assignable to type '"#F0B90B"'.
+src/components/ApiKeysModule.tsx|TS2322|Type 'string' is not assignable to type '"#F0B90B"'.
+src/components/BacktestReportPanel.tsx|TS2322|Type '{ children: Element; content: string; placement: string; }' is not assignable to type 'IntrinsicAttributes & TooltipProps'.
+src/components/BottomDataPanel.tsx|TS2300|Duplicate identifier 'config'.
+src/components/BottomDataPanel.tsx|TS2300|Duplicate identifier 'config'.
+src/components/BottomDataPanel.tsx|TS2322|Type 'Record<string, unknown>' is not assignable to type 'Record<string, { connected: boolean; status?: string; }>'.
+src/components/BottomDataPanel.tsx|TS6133|'config' is declared but its value is never read.
+src/components/CancelModule.tsx|TS2322|Type 'string[]' is not assignable to type 'string | number | boolean'.
+src/components/CancelModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/CancelModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/CancelModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/CloseModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/CloseModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/CloseModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/CloseModule.tsx|TS6133|'React' is declared but its value is never read.
+src/components/CompactConfigPanel.tsx|TS2339|Property 'name' does not exist on type 'BaseConfigItem'.
+src/components/CompactConfigPanel.tsx|TS2352|Conversion of type 'BaseConfigItem' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/components/CompactConfigPanel.tsx|TS6133|'onNavigateToModule' is declared but its value is never read.
+src/components/dashboard/LogModal.tsx|TS2322|Type 'string' is not assignable to type 'number'.
+src/components/dashboard/OrderTable.tsx|TS2339|Property 'posSide' does not exist on type 'Order'.
+src/components/dashboard/OrderTable.tsx|TS6133|'Button' is declared but its value is never read.
+src/components/dashboard/OrderTable.tsx|TS6133|'ConvertOrderModal' is declared but its value is never read.
+src/components/dashboard/OrderTable.tsx|TS6133|'isBinance' is declared but its value is never read.
+src/components/dashboard/PositionTable.tsx|TS2322|Type '{ children: (string | Element)[]; as: "button"; type: string; className: string; onClick: (e: MouseEvent<HTMLElement, MouseEvent>) => void; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/dashboard/PositionTable.tsx|TS2322|Type '{ children: string; as: "button"; type: string; onClick: (e: MouseEvent<HTMLElement, MouseEvent>) => void; className: string; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/dashboard/PositionTable.tsx|TS2322|Type '{ children: string; as: "button"; type: string; onClick: (e: MouseEvent<HTMLElement, MouseEvent>) => void; className: string; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/dashboard/PositionTable.tsx|TS2322|Type '{ children: string; as: "button"; type: string; onClick: (e: MouseEvent<HTMLElement, MouseEvent>) => void; className: string; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/dashboard/PositionTable.tsx|TS2339|Property 'realizedPnl' does not exist on type 'Position'.
+src/components/dashboard/PositionTable.tsx|TS2339|Property 'realizedPnl' does not exist on type 'Position'.
+src/components/dashboard/PositionTable.tsx|TS2551|Property 'uTime' does not exist on type 'Position'. Did you mean 'cTime'?
+src/components/dashboard/PositionTable.tsx|TS6133|'err' is declared but its value is never read.
+src/components/dashboard/sharedUtils.tsx|TS6133|'instId' is declared but its value is never read.
+src/components/diy/BacktestPanel.tsx|TS6133|'classification' is declared but its value is never read.
+src/components/diy/BacktestPanel.tsx|TS6133|'persistMaxOpenTrades' is declared but its value is never read.
+src/components/diy/BacktestPanel.tsx|TS6133|'persistRoiRows' is declared but its value is never read.
+src/components/diy/BacktestPanel.tsx|TS6133|'React' is declared but its value is never read.
+src/components/diy/BacktestPanel.tsx|TS6196|'BacktestPhase' is declared but never used.
+src/components/diy/BacktestReportArea.tsx|TS6133|'React' is declared but its value is never read.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'Element' is not assignable to type 'string'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'ReactI18NextChildren | Iterable<ReactI18NextChildren>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...>'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2305|Module '"react-i18next"' has no exported member 'TFunction'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'Element' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/ConditionTemplateModal.tsx|TS2339|Property 'filter' does not exist on type 'unknown'.
+src/components/diy/ConditionTemplateModal.tsx|TS2339|Property 'includes' does not exist on type 'unknown'.
+src/components/diy/ConditionTemplateModal.tsx|TS2339|Property 'trim' does not exist on type 'unknown'.
+src/components/diy/ConditionTemplateModal.tsx|TS2488|Type 'unknown' must have a '[Symbol.iterator]()' method that returns an iterator.
+src/components/diy/ConditionTemplateModal.tsx|TS6133|'typeStr' is declared but its value is never read.
+src/components/diy/ConditionTemplateModal.tsx|TS6196|'PriceSource' is declared but never used.
+src/components/diy/configSummarizer.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/configSummarizer.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/components/diy/configSummarizer.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/components/diy/configSummarizer.ts|TS6192|All imports in import declaration are unused.
+src/components/diy/StrategyCard.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/StrategyCard.tsx|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/components/diy/StrategyCard.tsx|TS2538|Type 'unknown' cannot be used as an index type.
+src/components/diy/StrategyModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | readonly string[]'.
+src/components/diy/StrategyModal.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/diy/StrategyModal.tsx|TS2345|Argument of type 'string' is not assignable to parameter of type 'FreqtradeTimeframe'.
+src/components/diy/StrategyModal.tsx|TS6133|'getAutoName' is declared but its value is never read.
+src/components/diy/StrategyModal.tsx|TS6133|'NumberInput' is declared but its value is never read.
+src/components/diy/StrategyModal.tsx|TS6133|'useMemo' is declared but its value is never read.
+src/components/DIYModule.tsx|TS2322|Type 'ActionBlock[]' is not assignable to type 'string | number | boolean'.
+src/components/DIYModule.tsx|TS2322|Type 'ConditionBlock[]' is not assignable to type 'string | number | boolean'.
+src/components/DIYModule.tsx|TS2322|Type 'FreqtradeStrategySpec' is not assignable to type 'string | number | boolean'.
+src/components/DIYModule.tsx|TS2345|Argument of type 'string' is not assignable to parameter of type 'FreqtradeTimeframe'.
+src/components/DIYModule.tsx|TS6133|'btLiveOnlyCount' is declared but its value is never read.
+src/components/DIYModule.tsx|TS6133|'entry' is declared but its value is never read.
+src/components/MarginModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/MarginModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/MarginModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/MarketMonitorModule.tsx|TS2307|Cannot find module '../../services/MarketScanner.ts' or its corresponding type declarations.
+src/components/MarketMonitorModule.tsx|TS2322|Type '{ children: (string | Element)[]; as: "button"; type: string; className: string; onClick: () => void; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/MarketMonitorModule.tsx|TS2322|Type '{ children: any[]; as: "button"; type: string; className: string; onClick: (e: MouseEvent<Element, MouseEvent>) => void; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributes<HTMLElement> & { children: ReactNode; as?: ElementType<any, keyof IntrinsicElements>; }'.
+src/components/PlaceModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/PlaceModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/components/PlaceModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/PlaceModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/PlaceModule.tsx|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/components/PlaceModule.tsx|TS2345|Argument of type 'string' is not assignable to parameter of type '"cross" | "isolated" | "cash"'.
+src/components/PositionsDashboard.tsx|TS2322|Type 'Record<string, unknown>' is not assignable to type 'Record<string, { connected: boolean; status?: string; }>'.
+src/components/PositionsDashboard.tsx|TS6133|'config' is declared but its value is never read.
+src/components/QuickTradePanel.tsx|TS2345|Argument of type 'string' is not assignable to parameter of type '"cross" | "isolated" | "cash"'.
+src/components/SystemSettingsModule.tsx|TS2345|Argument of type 'Partial<AppConfig>' is not assignable to parameter of type 'AppConfig'.
+src/components/SystemSettingsModule.tsx|TS2345|Argument of type 'Partial<AppConfig>' is not assignable to parameter of type 'AppConfig'.
+src/components/SystemSettingsModule.tsx|TS6133|'tgCode' is declared but its value is never read.
+src/components/SystemSettingsModule.tsx|TS6133|'tgDeepLink' is declared but its value is never read.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number | boolean'.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/diy/core/actionExecutor.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/diy/core/actionExecutor.ts|TS2339|Property 'includes' does not exist on type 'unknown'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>[]'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>[]'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>[]'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>[]'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'Record<string, unknown>[]'.
+src/engine/diy/core/actionExecutor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/engine/diy/core/conditionEvaluator.ts|TS6133|'OPERATOR_LABELS' is declared but its value is never read.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'boolean'.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/StrategyEngine.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/engine/StrategyEngine.ts|TS2339|Property 'cancelBatchAlgoOrders' does not exist on type 'unknown'.
+src/engine/StrategyEngine.ts|TS2339|Property 'cancelOrder' does not exist on type 'unknown'.
+src/engine/StrategyEngine.ts|TS2339|Property 'closePosition' does not exist on type 'unknown'.
+src/engine/StrategyEngine.ts|TS2339|Property 'closePosition' does not exist on type 'unknown'.
+src/engine/StrategyEngine.ts|TS2339|Property 'placeOrder' does not exist on type 'unknown'.
+src/engine/StrategyEngine.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/StrategyEngine.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/StrategyEngine.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/StrategyEngine.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/StrategyEngine.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/engine/StrategyEngine.ts|TS7018|Object literal's property 'timer' implicitly has an 'any' type.
+src/freqtrade/buildSpecFromConditions.ts|TS2322|Type 'string' is not assignable to type 'MacdOutput | BbOutput | StochOutput | "j"'.
+src/freqtrade/buildSpecFromConditions.ts|TS6196|'ConditionGroup' is declared but never used.
+src/freqtrade/ftBacktestService.ts|TS6196|'FreqtradeTimeframe' is declared but never used.
+src/freqtrade/strategyGenerator.ts|TS2339|Property 'indicator' does not exist on type 'Operand'.
+src/freqtrade/strategyGenerator.ts|TS6133|'isLongOnly' is declared but its value is never read.
+src/freqtrade/strategyGenerator.ts|TS6133|'quote' is declared but its value is never read.
+src/hooks/useShortcutKeyConflict.ts|TS2339|Property 'language' does not exist on type 'TFunction<"translation", undefined>'.
+src/hooks/useTradingData.ts|TS2322|Type 'unknown' is not assignable to type 'string'.
+src/hooks/useTradingData.ts|TS2339|Property 'channel' does not exist on type 'unknown'.
+src/hooks/useTradingData.ts|TS2339|Property 'forEach' does not exist on type 'unknown'.
+src/hooks/useTradingData.ts|TS2339|Property 'split' does not exist on type 'unknown'.
+src/hooks/useTradingData.ts|TS2339|Property 'USDC' does not exist on type 'unknown'.
+src/hooks/useTradingData.ts|TS2339|Property 'USDT' does not exist on type 'unknown'.
+src/hooks/useTradingData.ts|TS2339|Property 'warming' does not exist on type 'OrdersResponse'.
+src/hooks/useTradingData.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'number'.
+src/hooks/useTradingData.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'number'.
+src/hooks/useTradingData.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'number'.
+src/hooks/useTradingData.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'number'.
+src/hooks/useTradingData.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'LogEntry' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2464|A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2538|Type 'unknown' cannot be used as an index type.
+src/hooks/useTradingData.ts|TS2698|Spread types may only be created from object types.
+src/hooks/useTradingData.ts|TS6133|'event' is declared but its value is never read.
+src/hooks/useTradingDataUtils.ts|TS6196|'Account' is declared but never used.
+src/lib/configCache.ts|TS6133|'clearConfigCache' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'p' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'translateCancelDetail' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'translateMarginDestZh' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'translateMarginModeZh' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'translateModule' is declared but its value is never read.
+src/lib/logTemplates.ts|TS6133|'translateResolveError' is declared but its value is never read.
+src/lib/logTranslatorPatch.ts|TS6133|'match' is declared but its value is never read.
+src/middleware/inputValidation.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/routes/modules/crudFactory.ts|TS2345|Argument of type 'string' is not assignable to parameter of type 'ScriptType'.
+src/routes/modules/freqtradeRoutes.ts|TS2322|Type 'string[]' is not assignable to type 'string | number | boolean'.
+src/routes/modules/freqtradeRoutes.ts|TS6133|'sendError' is declared but its value is never read.
+src/routes/modules/freqtradeRoutes.ts|TS6133|'timezone' is declared but its value is never read.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'accountId' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>> | {}'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'after' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>> | {}'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'cancelBatchAlgoOrders' does not exist on type 'unknown'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'cancelBatchOrders' does not exist on type 'unknown'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'instId' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>> | {}'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'instType' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>> | {}'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'limit' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>> | {}'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'refresh' does not exist on type 'ReadableStream<Uint8Array<ArrayBufferLike>>'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'tdMode' does not exist on type 'OKXAlgoOrder'.
+src/routes/modules/ordersRoutes.ts|TS2339|Property 'tdMode' does not exist on type 'OKXOrder'.
+src/routes/modules/ordersRoutes.ts|TS2345|Argument of type '(req: Request, res: Response) => Promise<any>' is not assignable to parameter of type '(req: Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>, res: Response<any, Record<string, any>>) => Promise<...>'.
+src/routes/modules/ordersRoutes.ts|TS2349|This expression is not callable.
+src/routes/modules/ordersRoutes.ts|TS2349|This expression is not callable.
+src/routes/modules/ordersRoutes.ts|TS2349|This expression is not callable.
+src/routes/modules/ordersRoutes.ts|TS2554|Expected 0 arguments, but got 1.
+src/routes/modules/ordersRoutes.ts|TS2554|Expected 0 arguments, but got 1.
+src/routes/modules/ordersRoutes.ts|TS2554|Expected 0 arguments, but got 1.
+src/routes/modules/ordersRoutes.ts|TS2554|Expected 0 arguments, but got 1.
+src/routes/modules/systemRoutes.ts|TS2345|Argument of type 'ExtendedOrder' is not assignable to parameter of type 'OrderStateLike'.
+src/routes/modules/systemRoutes.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderStateLike'.
+src/routes/modules/systemRoutes.ts|TS2349|This expression is not callable.
+src/routes/modules/systemRoutes.ts|TS6133|'isSpot' is declared but its value is never read.
+src/routes/modules/systemRoutes.ts|TS6133|'newOrdPx' is declared but its value is never read.
+src/routes/modules/traderRoutes.ts|TS2344|Type 'PlaceOrderActionConfig' does not satisfy the constraint 'CrudConfigRecord'.
+src/routes/modules/traderRoutes.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'OKXTradeService'.
+src/routes/modules/traderRoutes.ts|TS6196|'PlaceConfigArray' is declared but never used.
+src/routes/modules/webhookRoutes.ts|TS6192|All imports in import declaration are unused.
+src/services/AccountMonitor.ts|TS2322|Type 'string[]' is not assignable to type 'string | number | boolean'.
+src/services/AccountMonitor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/services/AccountMonitor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/services/AccountMonitor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/services/AccountMonitor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/services/AccountMonitor.ts|TS2322|Type 'unknown' is not assignable to type 'string | number'.
+src/services/AccountMonitor.ts|TS2339|Property 'exchange' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2339|Property 'includes' does not exist on type 'unknown'.
+src/services/AccountMonitor.ts|TS2339|Property 'includes' does not exist on type 'unknown'.
+src/services/AccountMonitor.ts|TS2339|Property 'orderPrice' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2339|Property 'orderPrice' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2339|Property 'orderTypeDisplay' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2339|Property 'slPrice' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2339|Property 'tpPrice' does not exist on type 'T'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'Record<string, unknown>'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'Record<string, unknown>'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'Record<string, unknown>'.
+src/services/AccountMonitor.ts|TS2345|Argument of type 'unknown' is not assignable to parameter of type 'string'.
+src/services/AccountMonitor.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/AccountMonitor.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/AccountMonitor.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/AccountMonitor.ts|TS7053|Element implicitly has an 'any' type because expression of type '0' can't be used to index type '{}'.
+src/services/binanceOrderService.ts|TS6133|'orderListId' is declared but its value is never read.
+src/services/binanceOrderService.ts|TS6196|'BinanceSdkTradeService' is declared but never used.
+src/services/binanceSdkTradeService.ts|TS6133|'elapsed' is declared but its value is never read.
+src/services/binanceSdkTradeService.ts|TS6133|'lane' is declared but its value is never read.
+src/services/emailService.ts|TS6133|'info' is declared but its value is never read.
+src/services/okxTradeService.ts|TS2322|Type '{ instId: string; algoId: string; }[]' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type '{ instId: string; ordId?: string; clOrdId?: string; }[]' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'AmendOrderParams' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'AmendOrderParams' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'AmendOrderParams[]' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'AmendOrderParams[]' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'CancelOrderParams' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'Record<string, unknown>[]' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2322|Type 'TransferAssetParams' is not assignable to type 'Record<string, unknown>'.
+src/services/okxTradeService.ts|TS2740|Type '{}' is missing the following properties from type 'unknown[]': length, pop, push, concat, and 29 more.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'OrderTypeLike'.
+src/services/ordersCache.ts|TS2345|Argument of type 'TradeOrder' is not assignable to parameter of type 'Record<string, unknown>'.
+src/services/ordersCache.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/ordersCache.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/ordersCache.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/ordersCache.ts|TS2352|Conversion of type 'Record<string, unknown>' to type 'TradeOrder' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/services/wsManager.ts|TS2352|Conversion of type 'ExchangeAccount' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+src/ui/BatchClosePnl.tsx|TS2339|Property 'realizedPnl' does not exist on type 'Position'.
+src/ui/DatePickerInput.tsx|TS6133|'React' is declared but its value is never read.
+src/ui/FormulaPriceField.tsx|TS6133|'allowPercent' is declared but its value is never read.
+tests/accountMonitor.test.ts|TS2352|Conversion of type 'TradeOrder' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+tests/accountMonitor.test.ts|TS2352|Conversion of type 'TradeOrder' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+tests/accountMonitor.test.ts|TS2352|Conversion of type 'TradeOrder' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+tests/accountMonitor.test.ts|TS2352|Conversion of type 'TradeOrder' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+tests/accountMonitor.test.ts|TS2353|Object literal may only specify known properties, and 'exchange' does not exist in type 'TradeOrder'.
+tests/accountMonitor.test.ts|TS6133|'test' is declared but its value is never read.
+tests/binanceSdkTradeService.test.ts|TS2341|Property '_dateNowPatched' is private and only accessible within class 'BinanceSdkTradeService'.
+tests/binanceSdkTradeService.test.ts|TS2341|Property '_dateNowPatched' is private and only accessible within class 'BinanceSdkTradeService'.
+tests/binanceSdkTradeService.test.ts|TS6133|'test' is declared but its value is never read.
+tests/regression-20260909-intersection.test.ts|TS2739|Type '{ type: string; params: { exchange: string; instId: string; operator: string; threshold: string; }; }' is missing the following properties from type 'ConditionBlock': id, category
+tests/regression-20260909-intersection.test.ts|TS2739|Type '{ type: string; params: { exchange: string; instId: string; operator: string; threshold: string; }; }' is missing the following properties from type 'ConditionBlock': id, category
+tests/regression-20260909-intersection.test.ts|TS2739|Type '{ type: string; params: { exchange: string; instId: string; operator: string; threshold: string; }; }' is missing the following properties from type 'ConditionBlock': id, category
+tests/regression-20260909-intersection.test.ts|TS2739|Type '{ type: string; params: { exchange: string; instId: string; operator: string; threshold: string; }; }' is missing the following properties from type 'ConditionBlock': id, category
+tests/regression-20260909-intersection.test.ts|TS2739|Type '{ type: string; params: { exchange: string; instId: string; operator: string; threshold: string; }; }' is missing the following properties from type 'ConditionBlock': id, category
+tests/regression-20260909-intersection.test.ts|TS7023|'getAccountData' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.
+tests/strategyEngine.lifecycle.test.ts|TS2345|Argument of type '"regression_noop"' is not assignable to parameter of type 'ScriptType'.
+tests/strategyEngine.lifecycle.test.ts|TS2345|Argument of type '"regression_noop"' is not assignable to parameter of type 'ScriptType'.
+tests/strategyEngine.lifecycle.test.ts|TS2345|Argument of type '"regression_noop"' is not assignable to parameter of type 'ScriptType'.
+tests/strategyEngine.lifecycle.test.ts|TS2345|Argument of type '"regression_noop"' is not assignable to parameter of type 'ScriptType'.

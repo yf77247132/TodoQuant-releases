@@ -1,0 +1,128 @@
+appId: com.todoquant.app
+productName: TodoQuant
+copyright: Copyright © 2026 TodoQuant
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - electron/**/*
+  - public/**/*
+  - package.json
+  - node_modules/**/*
+  - "!node_modules/electron/**/*"
+  - "!node_modules/@binance/**/*"
+  - "!node_modules/vite/**/*"
+  - "!node_modules/typescript/**/*"
+  - "!node_modules/eslint/**/*"
+  - "!node_modules/eslint-config-prettier/**/*"
+  - "!node_modules/eslint-plugin-react/**/*"
+  - "!node_modules/eslint-plugin-react-hooks/**/*"
+  - "!node_modules/eslint-plugin-unused-imports/**/*"
+  - "!node_modules/typescript-eslint/**/*"
+  - "!node_modules/@eslint/**/*"
+  - "!node_modules/@typescript-eslint/**/*"
+  - "!node_modules/@vitejs/**/*"
+  - "!node_modules/@types/**/*"
+  - "!node_modules/@electron/notarize/**/*"
+  - "!node_modules/@electron/rebuild/**/*"
+  - "!node_modules/electron-builder/**/*"
+  - "!node_modules/png-to-ico/**/*"
+  - "!node_modules/sharp/**/*"
+  - "!node_modules/terser/**/*"
+  - "!node_modules/tailwindcss/**/*"
+  - "!node_modules/globals/**/*"
+  - "!node_modules/app-builder-bin/**/*"
+  - "!node_modules/7zip-bin/**/*"
+  - "!node_modules/*/{CHANGELOG.md,README.md,readme.md,readme}"
+  - "!node_modules/.cache/**/*"
+  - "!node_modules/.bin/**/*"
+  - "!node_modules/.vite/**/*"
+  - "!**/*.map"
+  - "!**/*.ts"
+  - "!**/*.tsx"
+  - "!tests/**/*"
+  - "!.workbuddy/**/*"
+
+extraResources:
+  - from: public
+    to: public
+    filter:
+      - "**/*"
+  - from: dist-server
+    to: dist-server
+    filter:
+      - "**/*"
+  - from: dist
+    to: dist
+    filter:
+      - "**/*"
+  - from: freqtrade-portable
+    to: freqtrade
+    filter:
+      - "**/*"
+
+asar: true
+asarUnpack:
+  - "**/*.node"
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: build/icon.ico
+  artifactName: ${productName}-${version}-${arch}.${ext}
+
+nsis:
+  oneClick: true
+  allowElevation: true
+  allowToChangeInstallationDirectory: false
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  installerHeaderIcon: build/icon.ico
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: ${productName}
+  include: build/installer.nsh
+  deleteAppDataOnUninstall: false
+
+mac:
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  icon: build/icons
+  category: public.app-category.finance
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+
+dmg:
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+  icon: build/icons
+  category: Office
+  maintainer: TodoQuant Team
+
+publish:
+  provider: github
+  owner: TODOQUET_GITHUB_OWNER
+  repo: TodoQuant-releases
+  releaseType: release
+
+beforeBuild: scripts/beforeBuild.cjs
